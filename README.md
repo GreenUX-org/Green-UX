@@ -54,3 +54,58 @@ Esta regla no es una norma oficial, es una regla creada por nosotrxs que consist
 
 ## SEO
 Un buen SEO aplicado se alinea a reducir el consumo de energía. En especial si tu producto es un sitio web, ya que al optimizarla en base a los requerimientos y clasificaciones de los motores de búsqueda, ayuda a las personas a encontrar la información que desean de forma rápida y sencilla. Si el SEO es exitoso, las personas pasan menos tiempo navegando por la web buscando información. Esto significa que se consume menos energía y la energía que se consume ofrece valor real al usuario.
+
+
+## Reducir imágenes:
+En la mayoría de las aplicaciones y sitios web el principal culpable del peso individual son las imágenes. Mientras mas imágenes uses tu producto va a requerir más procesamiento de datos, cargas extensas, transferencias de energía mas grandes e incluso usar muchas imágenes puede alterar la experiencia del usuario. Por eso es importante primero saber si las imágenes que están en tu producto son realmente útiles o le comunican un valor real al usuario. También podemos pensar en algunas alternativas a imágenes como gráficos vectoriales, CSS Art en páginas web, reemplazo de imágenes por tipografía y otros métodos.
+Pero es verdad que muchas veces una imagen puede mejorar la experiencia, por eso en estos casos tenemos algunas soluciones que te pueden permitir usar algunas imágenes de forma más sostenible y conciente:
+
+<ul>
+    <li><h3>Comprimir imágenes:</h3>Un método efectivo para usar imágenes sostenibles es comprimirlas para disminuir su peso, esto es muy efectivo e incluso se puede lograr comprimir imágenes sin perder calidad.</li>
+    <li><h3>Reducir medidas de imágenes:</h3>Otro error que se comete es utilizar imágenes en medidas mas grandes de las que se aplican en nuestro producto, esto hace que al tener medidas más grandes la imagen pese mas de forma innecesaria, por eso es esencial que apliquemos las medidas correspondiente según la pantalla que utilicemos ya que los bytes de la imagen puede reducir notablemente. </li>
+    <li>En este ejemplo con Green Compact se puede ver cómo se pueden reducir imágenes y pantallas innecesarias. En la primera interfaz se utiliza un menú con imágenes según la categoría antes de ingresar en la sección. En cambio en la segunda interfaz las secciones ya están desplazadas con un “Horizontal Scrolling” facilitando al usuario encontrar lo que quiere sin tener que abrir una pantalla, tambien desestructura el menu inicial eliminando imágenes innecesarias que no le agregan valor real al usuario.
+    <br>
+    <br>
+    <img height="500" width="300" src="https://res.cloudinary.com/ndl/image/upload/v1664755264/Android_Large_-_4_dtlsg6.png" alt="Interfaz de usuario con imagenes innesecarias">
+    <img height="500" width="300" src="https://res.cloudinary.com/ndl/image/upload/v1664755264/Android_Large_-_5_ifgf3p.png" alt="Interfaz de usuario con imagenes compactadas">
+    </li>
+</ul>
+
+## Optimizar videos:
+Los videos no son tan comunes como lo son las imagenes, pero por lo general en los sitios web modernos y algunos logins de apps se está volviendo una moda. Esta moda es de las principales causantes de un CO2 elevado en tu producto.
+ Los videos pueden llegar hasta pesar más que una página web entera, ya que son muy pesados y requieren muchos procesamientos de datos alterando el uso de la energía. Al igual que con las imágenes es muy importante saber si el video transmite un mensaje a los usuarios o se está utilizando solo por cuestiones estéticas. Para los casos en los que tu producto usa videos, es necesario intentar aplicar estos conceptos para lograr una correcta aplicación del Green UX:
+ <ul>
+    <li><h3>Renderizar y optimizar tus videos:</h3>Muchos programas te brindan este servicio e incluso gratis. Este método es extremadamente útil para disminuir su peso y hacer que los procesamientos de datos trabajen menos</li>
+    <li><h3>Si usas videos, que no se repitan:</h3>Por mas que tu sitio usa videos es de suma importancia evitar loops (Auto reproducción), usar esta funcionalidad mientras tu producto digital se ejecuta hace un bucle infinito de solicitudes de datos, consumo de energía y aumento de bytes </li>
+</ul>
+
+
+## Patrón de lectura F:
+Como mencionamos en puntos anteriores las personas tienden a escanear los textos en lugar de leerlos, en estos casos estudios revelan que lo suelen hacer en un patrón de lectura en forma de F, entonces es importante saber este punto para cuando le apliquemos los textos a nuestro producto ya que mientras más comprendamos al usuario en sus patrones de lectura podemos evitar textos innecesario que el usuario no lee, como consecuencia podemos conseguir una mejor UX, peso mas ligero, UI mas limpia y menos consumo de energía.
+    <br>
+    <br>
+        <img height="500" width="300" src="https://res.cloudinary.com/ndl/image/upload/v1664755297/eyetracking_shoppingcart_0_imvkj8.png" alt="Mapa de calor con lectura F">
+    <img height="500" width="300" src="https://res.cloudinary.com/ndl/image/upload/v1664755264/Android_Large_-_2_1_td34lx.png" alt="Interfaz de usuario sin respetar el patron de lectura F">
+    <img height="500" width="300" src="https://res.cloudinary.com/ndl/image/upload/v1664755264/Android_Large_-_3_c3wevq.png" alt="Interfaz de usuario respeta el patron de lectura F">
+    
+    ## Fuentes:
+Las fuentes también generan su peso y no es tan liviano como pensas. Un archivo de fuentes por lo general pesa entre 100kb-300kb, y si le agregas negrita a las fuentes pueden generar los mismo kilobytes e incluso hasta más. 
+Para solucionar esto puedes usar fuentes adaptadas al sistema, ya que no necesitan ningún archivo para cargarse. En el caso de las versiones web puede ser Arial o Times New Roman, en android Roboto o en apple San Francisco entre otras.. Sabemos que quizás no son las mas lindas e incluso tu producto puede tener otra fuente personalizada. En esos casos te recomendamos poder combinar ambas fuentes
+
+
+## Desarrollo sostenible:
+Los desarrolladores ejercen gran influencia sobre la eficiencia energética de los sitios web que crean y mantienen. Si bien algunas decisiones de los diseñadores y creadores de contenido están fuera del alcance de los desarrolladores, hay múltiples áreas en las que los mismos tienen el control total y  la capacidad de optimizar el contenido y los diseños que realizan. Estos procedimientos te pueden ayudar a lograrlo:
+
+<ul>
+    <li><h3>Código limpio:</h3>Un código limpio, ordenado y no repetido garantiza una mejor optimización del producto y facilita a algoritmos redactores de código a hacerlo de forma más fácil y rápida.</li>
+    <li><h3>Evitar Java Script:</h3>Sabemos que esto es una tarea muy difícil ya que JS es muy útil a la hora de programar pero mientras puedas evitar lo máximo posible JS  tu producto va a tener muchísimos menos procesamientos y un peso mucho más ligero. Si tu proyecto necesita JS intenta usarlo de forma consciente y evita lo máximo posible el dom que genera procesos pesados. También hay muchas alternativas a este lenguaje que pueden solucionarte lo que buscas</li>
+</ul>
+
+## Alojamientos:
+Los alojamientos de sitios web o alojamientos en general generan mucha energía desde su central de datos, por eso es importante que a la hora de elegir el tuyo elijas uno ecológico; estos utilizan energía renovable por ende el CO2 de tu producto digital disminuye considerablemente. Si ya tienes un Host en esta pagina te podes fijar si es ecológico.
+Otro método sostenible ideal es usar CDN en tus alojamientos, usar un CDN permite recibir la información desde la nube y de los centros de datos mas cerca de tu región
+<br>
+<br>
+Ilustración de CDN con los centros de datos según las regiones
+<div>
+    <img height="300" width="300" src="https://winningwp.com/wp-content/uploads/2019/08/amazon-cloudfront-network.png" alt="Interfaz de usuario respeta el patron de lectura F"> </div>
