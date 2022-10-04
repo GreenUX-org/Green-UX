@@ -88,7 +88,7 @@ Como mencionamos en puntos anteriores las personas tienden a escanear los textos
     <img height="500" width="300" src="https://res.cloudinary.com/ndl/image/upload/v1664755264/Android_Large_-_2_1_td34lx.png" alt="Interfaz de usuario sin respetar el patron de lectura F">
     <img height="500" width="300" src="https://res.cloudinary.com/ndl/image/upload/v1664755264/Android_Large_-_3_c3wevq.png" alt="Interfaz de usuario respeta el patron de lectura F">
     
-    ## Fuentes:
+## Fuentes:
 Las fuentes también generan su peso y no es tan liviano como pensas. Un archivo de fuentes por lo general pesa entre 100kb-300kb, y si le agregas negrita a las fuentes pueden generar los mismo kilobytes e incluso hasta más. 
 Para solucionar esto puedes usar fuentes adaptadas al sistema, ya que no necesitan ningún archivo para cargarse. En el caso de las versiones web puede ser Arial o Times New Roman, en android Roboto o en apple San Francisco entre otras.. Sabemos que quizás no son las mas lindas e incluso tu producto puede tener otra fuente personalizada. En esos casos te recomendamos poder combinar ambas fuentes
 
@@ -107,5 +107,13 @@ Otro método sostenible ideal es usar CDN en tus alojamientos, usar un CDN permi
 <br>
 <br>
 Ilustración de CDN con los centros de datos según las regiones
-<div>
-    <img height="300" width="300" src="https://winningwp.com/wp-content/uploads/2019/08/amazon-cloudfront-network.png" alt="Interfaz de usuario respeta el patron de lectura F"> </div>
+<ul>
+    <img height="200" width="250" src="https://winningwp.com/wp-content/uploads/2019/08/amazon-cloudfront-network.png" alt="Interfaz de usuario respeta el patron de lectura F">
+    
+</ul>
+    
+
+## Memoria interna y base de datos:
+Usar la memoria caché para almacenar datos es una excelente forma de reducir energía. Solicitar información a memorias locales es una alternativa a recibir procesos pesados de base de datos, por más que este método si consume energía es en una escala menor. También como en el punto anterior hablábamos de alojamientos verdes, lo mismo pasa con las bases de datos. Claramente solicitar los datos a una base de datos conlleva mucho consumo de energía y cargas más extensas, por eso recomendamos usar bases de datos que utilicen energía renovable para los procesamientos de datos y que estén lo más cerca posible de la ubicación de la mayoría de tus usuarios para acelerar las cargas.
+Es muy importante saber que cuando llamamos a almacenamientos de datos hay que intentar no repetir los procesos y poder recibir toda la información posible en una sola llamada.
+
