@@ -102,7 +102,7 @@ Los desarrolladores ejercen gran influencia sobre la eficiencia energética de l
 </ul>
 
 ## Alojamientos:
-Los alojamientos de sitios web o alojamientos en general generan mucha energía desde su central de datos, por eso es importante que a la hora de elegir el tuyo elijas uno ecológico; estos utilizan energía renovable por ende el CO2 de tu producto digital disminuye considerablemente. Si ya tienes un Host en esta pagina te podes fijar si es ecológico.
+Los alojamientos de sitios web o alojamientos en general generan mucha energía desde su central de datos, por eso es importante que a la hora de elegir el tuyo elijas uno ecológico; estos utilizan energía renovable por ende el CO2 de tu producto digital disminuye considerablemente. Si ya tienes un Host en <a href="https://www.thegreenwebfoundation.org/">esta pagina</a> te podes fijar si es ecológico.
 Otro método sostenible ideal es usar CDN en tus alojamientos, usar un CDN permite recibir la información desde la nube y de los centros de datos mas cerca de tu región
 <br>
 <br>
