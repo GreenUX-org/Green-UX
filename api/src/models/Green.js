@@ -1,20 +1,18 @@
-const { Sequelize, DataTypes } = require('sequelize');
+const { Sequelize, DataTypes } = require("sequelize");
 
-module.exports = (sequelize)=>{
-    
-sequelize.define ('green', {
-    // Model attributes are defined here
-    firstName: {
-      type: DataTypes.STRING,
-      allowNull: false
+module.exports = (sequelize) => {
+  sequelize.define(
+    "green",
+    {
+      // Model attributes are defined here
+      firstName: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      lastName: {
+        type: DataTypes.STRING,
+      },
     },
-    lastName: {
-      type: DataTypes.STRING
-      
-    }
-  }, {
-   
-  });
-} 
-
-
+    {}
+  );
+};
