@@ -1,0 +1,19 @@
+Por el momento estuvimos analizando que tablas realizar,
+creemos que podemos realizar 3 tablas.
+
+Tabla de secciones : -> donde iria, introducción, Green UX en procesos de trabajo
+,Desarrollo sostenible & Green UX,Desarrollo sostenible & Green UX.
+
+Esta tabla secciones tendría una relación de 1 a muchos 
+con la tabla Titulos(titulos de la documentación como los sgtes:
+-Bienvenidos al cambio
+-¿Que es Green UX
+-¿Cómo comenzar un buen Green UX?
+-Ética en Green UX )
+
+
+Tabla Titulos:  tendría una relación de 1 a 1 con Secciones. 
+Por ej: Bienvenidos al cambio estaría relacionado con Introducción.
+
+Tabla info: tendría una relación de 1 a 1.
+Por ej: El internet es uno de los avances más... con Bienveidos al cambio(Titulo)

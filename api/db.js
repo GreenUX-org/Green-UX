@@ -36,6 +36,13 @@ let capsEntries = entries.map((entry) => [
 ]);
 sequelize.models = Object.fromEntries(capsEntries);
 
+
+
+const {Green}= sequelize.models
+// Aqui van a ir las relaciones...
+
+
+// Prueba de que la conexion sequelize funciona..
 sequelize
   .authenticate()
   .then(() => {
