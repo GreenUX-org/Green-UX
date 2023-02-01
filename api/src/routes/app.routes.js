@@ -1,22 +1,35 @@
 import '../controllers'
 
+
 import { Router } from 'express'
 const router = Router()
 
 
-router.get('/info',(req,res)=>{
-})
+router.get('/info',getInfo)
 
-router.post('/create',(req,res)=>{
-})
+router.post('/create',uploadInfo)
 
-router.put('/update',(req,res)=>{
-})
+router.put('/update',putInfo)
 
-router.delete('/delete',(req,res)=>{
-})
+router.put('/delete',deleteInfo)
 
+//-------------
+router.get('/info',getInfo)
 
+router.post('/create',uploadInfo)
+
+router.put('/update',putInfo)
+
+router.put('/delete',deleteInfo)
+//----------------
+
+router.get('/info',getInfo)
+
+router.post('/create',uploadInfo)
+
+router.put('/update',putInfo)
+
+router.put('/delete',deleteInfo)
 
 
 export default router
