@@ -17,3 +17,9 @@ Por ej: Bienvenidos al cambio estaría relacionado con Introducción.
 
 Tabla info: tendría una relación de 1 a 1.
 Por ej: El internet es uno de los avances más... con Bienveidos al cambio(Titulo)
+
+
+01/02/23
+Add 3 tablas Sections, Info, Titles, con sus relaciones.
+Se instala axios. Hacer npm i!!!
+Se comienzo a hacer CRUD.
