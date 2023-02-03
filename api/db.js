@@ -27,7 +27,7 @@ fs.readdirSync(path.join(__dirname, "./src/models"))
   });
 
 // Injectamos la conexion (sequelize) a todos los modelos
-modelDefiners.forEach((model) => model(sequelize));
+modelDefiners.forEach((model)=> model(sequelize));
 // Capitalizamos los nombres de los modelos ie: product => Product
 let entries = Object.entries(sequelize.models);
 let capsEntries = entries.map((entry) => [
@@ -38,8 +38,13 @@ sequelize.models = Object.fromEntries(capsEntries);
 
 
 
-const {Green}= sequelize.models
+const {Info, Sections, Titles}= sequelize.models
 // Aqui van a ir las relaciones...
+Sections.hasMany(Titles);
+Titles.belongsTo(Sections);
+Titles.belongsTo(Info);
+Info.belongsTo(Titles);
+
 
 
 // Prueba de que la conexion sequelize funciona..
