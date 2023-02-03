@@ -1,35 +1,35 @@
-import '../controllers'
-
-
-import { Router } from 'express'
+const  {getSections,createSections,updateSections,disabledSections} = require('../controllers/sections.controller')
+const {getTitles,createTitle,updateTitle,disabledTitle}= require('../controllers/titles.controller')
+const  { Router } =require( 'express');
 const router = Router()
 
 
-router.get('/info',getInfo)
+router.get('/sections',getSections)
 
-router.post('/create',uploadInfo)
+router.post('/sections',createSections)
 
-router.put('/update',putInfo)
+router.put('/sections/update/:id',updateSections)
 
-router.put('/delete',deleteInfo)
+router.put('/sections/disabled/:id',disabledSections)
 
-//-------------
-router.get('/info',getInfo)
+ //-------------
+router.get('/titles',getTitles)
 
-router.post('/create',uploadInfo)
+router.post('/titles',createTitle)
 
-router.put('/update',putInfo)
+router.put('/titles/update/:id',updateTitle)
 
-router.put('/delete',deleteInfo)
-//----------------
+ router.put('/titles/disabled/:id',disabledTitle)
+ 
+// //----------------
 
-router.get('/info',getInfo)
+// router.get('/info',getInfo)
 
-router.post('/create',uploadInfo)
+// router.post('/create',uploadInfo)
 
-router.put('/update',putInfo)
+// router.put('/update',putInfo)
 
-router.put('/delete',deleteInfo)
+// router.put('/delete',deleteInfo)
 
 
-export default router
+module.exports=router
