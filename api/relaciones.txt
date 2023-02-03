@@ -23,3 +23,8 @@ Por ej: El internet es uno de los avances más... con Bienveidos al cambio(Titul
 Add 3 tablas Sections, Info, Titles, con sus relaciones.
 Se instala axios. Hacer npm i!!!
 Se comienzo a hacer CRUD.
+
+3/02/23
+Las rutas de secciones(Section) estan listas
+Las rutas de Titulos estan listas(revisar el miercoles)
+Faltan las rutas de Información 
