@@ -17,6 +17,7 @@ const createTitle = async (req, res) => {
   try {
 
     const { name, sectionName } = req.body;
+    
     const createTitle = await Titles.create({
       name: name,
     });

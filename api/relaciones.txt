@@ -21,10 +21,19 @@ Por ej: El internet es uno de los avances más... con Bienveidos al cambio(Titul
 
 01/02/23
 Add 3 tablas Sections, Info, Titles, con sus relaciones.
-Se instala axios. Hacer npm i!!!
-Se comienzo a hacer CRUD.
+-Se instala axios. Hacer npm i!!!
+-Se comienzo a hacer CRUD.
 
 3/02/23
-Las rutas de secciones(Section) estan listas
-Las rutas de Titulos estan listas(revisar el miercoles)
-Faltan las rutas de Información 
+-Las rutas de secciones(Section) estan listas
+-Las rutas de Titulos estan listas(revisar el miercoles) 
+-Faltan las rutas de Información 
+
+8/02/23
+-Cambiamos algunos terminos de las relaciones y le agregamos foreign key.
+-Las rutas titulos fueron revisadas y funcionan correctamente.
+-Armamos y probamos las rutas de Información
+
+ -VER que deberia ir el id_section y 
+ el id_title en las rutas de update.
+Queda por revisar eso unicamente.
