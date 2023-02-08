@@ -40,10 +40,10 @@ sequelize.models = Object.fromEntries(capsEntries);
 
 const {Info, Sections, Titles}= sequelize.models
 // Aqui van a ir las relaciones...
-Sections.hasMany(Titles);
-Titles.belongsTo(Sections);
-Titles.belongsTo(Info);
-Info.belongsTo(Titles);
+Sections.hasMany(Titles,{foreignKey:'section_id',sourceKey:'id'});    
+Titles.belongsTo(Sections,{foreignKey:'section_id',targetKey:'id'});
+Titles.hasOne(Info,{foreignKey:'title_id'});
+Info.belongsTo(Titles,{foreignKey:'title_id'});
 
 
 
