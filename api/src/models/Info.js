@@ -17,6 +17,7 @@ module.exports = (sequelize) => {
       },
       img: {
         type: DataTypes.TEXT,
+        allowNull:true,
       },
       show: {
         type: DataTypes.BOOLEAN,

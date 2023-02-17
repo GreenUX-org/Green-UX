@@ -16,9 +16,10 @@ const getInfo = async (req, res) => {
 const createInfo = async (req, res) => {
   try {
 
-    const { data, titleName } = req.body;
+    const { img, data, titleName } = req.body;
     const createInfo = await Info.create({
       data: data,
+      img:img
     });
 
     const title=  await Titles.findOne({where:{ name: titleName}})
@@ -31,17 +32,16 @@ const createInfo = async (req, res) => {
 };
 
 const updateInfo = async (req, res) => {
-    console.log('holaaaa')
   const { id } = req.params;
-  console.log(id)
-  const { data } = req.body;
+  const { data, img } = req.body;
   const updateInf = await  Info.findByPk(id);
-    console.log(updateInf)
+  
   try {
-    if (updateInf && data?.length) {
+    if (updateInf && data?.length || img?.length) {
       await Info.update(
         {
           data: data,
+          img:img
         },
         {
           where: { id },
